@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        #data{
+            display: grid;
+            grid-template-columns: repeat(3,25%);
+            grid-gap: 5%;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Welcome to product page</h1>
+    <button onclick="sortb()">sort by brand</button>
+    <button onclick="sortlh()">sort by price low to high </button>
+    <button onclick="sorthl()">sort by price high to low</button>
+    <button onclick="gotocart()">go to cart</button>
+
+    <div id="data"></div>
+</body>
+</html>
+
+<script src="main.js"></script>
