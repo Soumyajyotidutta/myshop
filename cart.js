@@ -86,4 +86,3 @@ cartvalue();
 function placeorder(){
  window.location.href="orderplaced.html"
 }
-var interval=setInterval(placeorder(),3000);
